@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="public/style/styles.css">
+	<title>Data</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
+
+	<!-- BootStrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+	<!--Google Fonts-->
+	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap" rel="stylesheet">  -->
+
+</head>
+
+<body id="body">
+	
+	<section id ="title">
+		<!-- navbar starts-->
+	<!-- <img class src="/images/SSSIHL-Logo_White.png" alt="sssihl logo"> -->
+	
+	<ul id="list" style="margin-bottom: 0;">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="data.html">Data</a></li>
+		<li><a href="contacts.html">Contact</a></li>
+		<li><a href="help.html">Help</a></li>
+		<li><a href="ps.html">About</a></li>
+		<ul id="register">
+			<li><a href="register.html">Register Now</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>	
+	</ul>
+	<!-- <h1 id="bbms" style="visibility: hidden;">Blood Bank Management System</h1> -->
+	<img src="public/images/drop1.png"  id="logo" alt="blood bank">
+		<!-- navbar ends-->
+</section> 
+	<!-- navbar ends-->
+	<div>
+		<form action="/" method="post" style="margin-left: auto; margin-right:auto;">
+			<br>
+				<!-- <label for="formatInput">Format: CSV, JSON, XML</label><br><br>
+				<input id="formatInput" type="text" name="foramt"><br><br> -->
+				<button id="data" type="submit">Get The Current Data</button><br><br>
+				<a id="download" href="https://api.data.gov.in/resource/fced6df9-a360-4e08-8ca0-f283fc74ce15?api-key=579b464db66ec23bdd0000018bd47eced35545527e84f40b7eb6cf1b&format=csv&limit=2800" 
+				download="data.csv">Download</a>
+		</form>
+        <br>
+	</div>
+	<hr class="hr">
+	<div>
+		<h3>The data is Updated every Month</h3>
+		<table class="table table-bordered table-hover table-condensed">
+			<thead><tr><th title="Field #1">Sr No</th>
+			<th title="Field #2">Blood Bank Name</th>
+			<th title="Field #3">State</th>
+			<th title="Field #4">District</th>
+			<th title="Field #5">City</th>
+			<th title="Field #6">Address</th>
+			<th title="Field #7">Pincode</th>
+			<th title="Field #8">Contact No</th>
+			<th title="Field #9">Mobile</th>
+			<th title="Field #12">Email</th>
+			<th title="Field #19">Category</th>
+			<th title="Field #20">Blood Component Available</th>
+			</tr></thead>
+			<tbody><tr>
+			<td>1</td>
+			<td>G.B. Pant Hospital Blood bank</td>
+			<td>Andaman And Nicobar Islands</td>
+			<td>SOUTH ANDAMAN</td>
+			<td>Port Blair</td>
+			<td>Atlanta Point<br/>Near Cellular Jail<br/>P.O. Aberdeen Bazaar</td>
+			<td>744104</td>
+			<td>03192 230628</td>
+			<td>9434266561</td>
+			<td>bbgbpant@gmail.com</td>
+			<td>Government</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td>2</td>
+			<td>I.N.H.S. Dhanvantri</td>
+			<td>Andaman And Nicobar Islands</td>
+			<td>SOUTH ANDAMAN</td>
+			<td>Port Blair</td>
+			<td>Ashvini Nagar, Port Blair, Andaman and Nicobar Islands.</td>
+			<td>744103</td>
+			<td>03192 248759</td>
+			<td>8001452200</td>
+			<td>NA</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td>3</td>
+			<td>Pillar Health Centre Blood Bank</td>
+			<td>Andaman And Nicobar Islands</td>
+			<td>SOUTH ANDAMAN</td>
+			<td>Port Blair</td>
+			<td>Lamba Line,<br/>P.B. 526,<br/>P.O. Junglighat, <br/>Opposite Airport</td>
+			<td>744104</td>
+			<td>03192 233193, 03192 233993</td>
+			<td>9474247585</td>
+			<td>pillarbloodbank2016@gmail.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >4</td>
+			<td>Indian Red Cross Society Blood Bank, District Branch</td>
+			<td>Andhra Pradesh</td>
+			<td>ANANTAPUR</td>
+			<td>Anantapur</td>
+			<td>Near JNTU Engeneering College, Sarada Nagar, Ananthapur.</td>
+			<td>515002</td>
+			<td>08554 246344</td>
+			<td>9441192365</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >5</td>
+			<td>Government General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>ANANTAPUR</td>
+			<td>Ananthapur</td>
+			<td>Government General Hospital, Ananthapur</td>
+			<td>515001</td>
+			<td>08554 275024</td>
+			<td>9866695858</td>
+			<td>bloodbankgghatp@gmail.com</td>
+			<td>Government</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >6</td>
+			<td>Indian Red Cross Society</td>
+			<td>Andhra Pradesh</td>
+			<td>ANANTAPUR</td>
+			<td>Ananthapur</td>
+			<td>Blood Bank Medical Officer,Blood Bank, Indian Red Cross Society, Anantpur</td>
+			<td>515001</td>
+			<td>8554246344</td>
+			<td>Dist.Secretary 9866023293</td>
+			<td>ircsbloodbank.anantapur@gmail.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >7</td>
+			<td>Rural Development Trust Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>ANANTAPUR</td>
+			<td>Bathalapalli</td>
+			<td>Kadiri Road, Bathalapalli, Ananthapur</td>
+			<td>515661</td>
+			<td>08559 244259</td>
+			<td>9493268861</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >8</td>
+			<td>South Central Railway Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>ANANTAPUR</td>
+			<td>Guntakal</td>
+			<td>S.C. Railway Hospital, Guntakal, Ananthapuramu</td>
+			<td>515801</td>
+			<td>08552 227166</td>
+			<td>9701374501</td>
+			<td>NA</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >9</td>
+			<td>Indian Red Cross Society Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>ANANTAPUR</td>
+			<td>Hindupur</td>
+			<td>Government General Hospital Blood Bank, Hindupur, Ananthapur</td>
+			<td>515201</td>
+			<td>08556 225900</td>
+			<td>NA</td>
+			<td>ircshup@gmail.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >10</td>
+			<td>Indian Red Cross Society Blood bank RCH -II KADIRI</td>
+			<td>Andhra Pradesh</td>
+			<td>ANANTAPUR</td>
+			<td>Kadiri</td>
+			<td>Ground Floor, APVVP (Government General Hospital) Area Hospital, Kadiri, Ananthapur</td>
+			<td>515591</td>
+			<td>08494 221544</td>
+			<td>9989738689</td>
+			<td>kadiriircs@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >11</td>
+			<td>S.S.S.I.H.M.S. Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>ANANTAPUR</td>
+			<td>Puttaparthy</td>
+			<td>Prasanthigram, Puttaparthy, Ananthapuramu</td>
+			<td>515134</td>
+			<td>08555 287900</td>
+			<td>9490360321</td>
+			<td>saikiran_ptp@yahoo.co.in</td>
+			<td>Government</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >12</td>
+			<td>District Head Quarters Hospital Blood Bank.</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Chittoor</td>
+			<td>Head Quarters  Hospital Compound, Chittoor</td>
+			<td>517001</td>
+			<td>NA</td>
+			<td>9849229482</td>
+			<td>bloodbankctr1@gmail.com</td>
+			<td>Government</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >13</td>
+			<td>Indian Red Cross Society</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Chittoor</td>
+			<td>The Secretary, Indian Red Cross Society, D:No:20-119, PH Road, Redcross Building, Chittoor 517 001, Andhra Pradesh Dr.M.V.Narayana Reddy (MO), Ph:08572 220287</td>
+			<td>517001</td>
+			<td>8572220287</td>
+			<td>NA</td>
+			<td>indian red cross society indian red corss society</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >14</td>
+			<td>M/s IRCS Blood Bank.</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Chittoor</td>
+			<td>D.No. 20 - 119, Prakasam High Road, Chittor</td>
+			<td>517001</td>
+			<td>08572 220287</td>
+			<td>9849229482</td>
+			<td>ircschittoor@gmail.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >15</td>
+			<td>M/s PESIMSR Blood Bank.</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Kuppam</td>
+			<td>PES Institute of medical sciences premises, Kuppam</td>
+			<td>517425</td>
+			<td>08570 256737</td>
+			<td>9391833741</td>
+			<td>pathpesimsr@gmail.com</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >16</td>
+			<td>Blood Bank AH Madanapalli</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Madanapalli</td>
+			<td>The Blood Bank Medical Officer, Area Hospital, Patel Road, Madanapalli 517 325, Chittoor Dist. , Andhra pradesh Dr.Laxmiprasadreddy9(M.O)</td>
+			<td>517325</td>
+			<td>8571222087</td>
+			<td>NA</td>
+			<td>ircsbbmpl2009@gmail.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >17</td>
+			<td>Indian Red Cross Society, Madanapalli RCH 2</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Madnapalli</td>
+			<td>Area Hospital, Patel Road, Madanapalli.</td>
+			<td>517325</td>
+			<td>08571 222087</td>
+			<td>9440580272</td>
+			<td>ircsbbmpl2009@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >18</td>
+			<td>Aswini Hospital Blood Bank, TTD</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Tirumala</td>
+			<td>Tirumala Tirupati Devastanam (TTD), Tirumala, Chittoor</td>
+			<td>517507</td>
+			<td>9490651605</td>
+			<td>9490651605</td>
+			<td>suresh.bandapalli@gmail.com</td>
+			<td>Charity</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >19</td>
+			<td>SVRRGGH - Model Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Tirupati</td>
+			<td>S.V.R.R. Government General Hospital, Tirupati</td>
+			<td>517502</td>
+			<td>0877 2286290</td>
+			<td>NA</td>
+			<td>modelbloodbanktpt2010@gmail.com</td>
+			<td>Government</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >20</td>
+			<td>Sri Venkateswara Institute of Medical sciences Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Tirupati</td>
+			<td>Sri Venkateswara Institute of Medical Sciences (SVIMS) Campus, Tirupati</td>
+			<td>517507</td>
+			<td>0877 2287777</td>
+			<td>NA</td>
+			<td>svimshosp</td>
+			<td>Charity</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >21</td>
+			<td>Govt Maternity Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Tirupati</td>
+			<td>Ruia Hospital Road, Tirupati</td>
+			<td>517507</td>
+			<td>NA</td>
+			<td>9949190197</td>
+			<td>supdtgmhtirupati@yahoo.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >22</td>
+			<td>TTD Central Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Tirupati</td>
+			<td>Tirumala Tirupati Devastanam (TTD), Kapil Teertham Road, Tirupati</td>
+			<td>517501</td>
+			<td>0877 2264622</td>
+			<td>9849099750</td>
+			<td>ttdcentralhospital@gmail.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >23</td>
+			<td>S.V.S. Charitable Trust Blood Bank and Transfusion Centre</td>
+			<td>Andhra Pradesh</td>
+			<td>CHITTOOR</td>
+			<td>Tirupati</td>
+			<td>10-13-514, 1st Floor, Reddy &amp; Reddy Colony, Tirupathi</td>
+			<td>517501</td>
+			<td>0877 6667671</td>
+			<td>9246999571</td>
+			<td>svsctbloodbank@gmail.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >24</td>
+			<td>Government Hospital</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Amalapuram</td>
+			<td>Blood Bank Medical Officer,  Blood Bank, Government Hospital, Amalapuram</td>
+			<td>533201</td>
+			<td>NA</td>
+			<td>9989106236</td>
+			<td>bloodbankahamp@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >25</td>
+			<td>M/S. Kims &amp; Research Foundation, Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Amalapuram</td>
+			<td>Kims &amp; Research Foundation, Hospital Blood Bank, Sy.No:813 &amp; 817, Kamanagaruvu, Near Red Bridge, Amalapuram.</td>
+			<td>533201</td>
+			<td>08856 237996, 08856 237997, 08856 237998</td>
+			<td>9949993495</td>
+			<td>Principal07kims@yahoo.co.in</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >26</td>
+			<td>M/s. A.P.V.V.P Area Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Amalapuram</td>
+			<td>Ground Floor Area Hospital, Amalapuram</td>
+			<td>533201</td>
+			<td>NA</td>
+			<td>09505152234, 09491219991</td>
+			<td>NA</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >27</td>
+			<td>M/s. Government General Hospital, Blood Bank.</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Kakinada</td>
+			<td>Government General Premises, Ground Floor, Kakinada</td>
+			<td>533001</td>
+			<td>0884 2302008</td>
+			<td>9390207027</td>
+			<td>bloodbankgghkkd@gmail.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >28</td>
+			<td>M/s. Indian Red Cross Society Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Kakinada</td>
+			<td>D.No: 8-14-39, Ground &amp; 1st  Floor, Red Cross Street, Gandhi Nagar, Kakinada</td>
+			<td>533004</td>
+			<td>0884 2385800</td>
+			<td>9848071868</td>
+			<td>nraopydah@yahoo.co.in</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >29</td>
+			<td>M/s. Rotary Blood Bank (Rotary Club Golden Jubilee Charitable Trust)</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Kakinada</td>
+			<td>Second Floor, D.No:15-8-3, Brahmarishi Road, Satya Prasanna Nagar, Kakinada</td>
+			<td>533001</td>
+			<td>0884 2367366,</td>
+			<td>9494673434</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >30</td>
+			<td>District Headquarters Hospital</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Rajahmundry</td>
+			<td>Blood Bank Medical Officer, Blood Bank, District Headquarters . Hospital, Rajahmundry</td>
+			<td>533101</td>
+			<td>NA</td>
+			<td>9849520969</td>
+			<td>govtbloodbank.rjy@gmail.com</td>
+			<td>NA</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >31</td>
+			<td>M/s. G. S. L. Medical College General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Rajahmundry</td>
+			<td>No-16, Lakshmi Puram, Rajanagaram, Rajahmundry.</td>
+			<td>533296</td>
+			<td>0883 2484999</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >32</td>
+			<td>M/s. Swatantra Hospital,  Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Rajahmundry</td>
+			<td>D.No: 46-13-31,1st Floor, Gowthami Scan Centre Private Limited, Near Gandhi Park,  Danaviepeta, Rajahmundry.</td>
+			<td>533103</td>
+			<td>0883 2464745, 0883 246569878, 0883 2461493</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >33</td>
+			<td>M/S. Dhanwantari Voluntary Blood Bank.</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Rajahmundry</td>
+			<td>D.No:46-21-1,2nd Floor, Danavaiepeta, Rajahmundry</td>
+			<td>533103</td>
+			<td>0833-2473050</td>
+			<td>9885186533</td>
+			<td>dvbbrjy@gmail.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >34</td>
+			<td>M/s. Government Area General Hospital Blood Bank.</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Tuni</td>
+			<td>M/s.Government Area Hospital Blood Bank, Area hospital, Tuni</td>
+			<td>533401</td>
+			<td>08854 252333</td>
+			<td>09849030908, 09505615556</td>
+			<td>tunibloodbank@yahoo.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >35</td>
+			<td>M/s. Sakthi Voluntary Blood Bank (Sakthi Association for Social Awarness)</td>
+			<td>Andhra Pradesh</td>
+			<td>EAST GODAVARI</td>
+			<td>Tuni</td>
+			<td>D.No: 3-5-9, Opposite to Raithu Bazar, Lalam Satyanarayana Hospital Street, Tuni</td>
+			<td>533401</td>
+			<td>08854 251123</td>
+			<td>09347911130, 09948456739</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >36</td>
+			<td>Government General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur</td>
+			<td>Opposite to Railway Station, 1st Floor, C/o Government General Hospital, Guntur.</td>
+			<td>522001</td>
+			<td>0863 2220035 (Ext No: 280)</td>
+			<td>9966641474</td>
+			<td>bloodbank.ggh.gnt@gmail.com</td>
+			<td>Government</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >37</td>
+			<td>Indian Red Cross Society</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur</td>
+			<td>Blood Bank Medical Officer, Blood Bank, Indian Red Cross Society, Guntur, District Guntur</td>
+			<td>522004</td>
+			<td>NA</td>
+			<td>9985322589</td>
+			<td>redcrossbloodbankguntur@yahoo.co.in</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >38</td>
+			<td>Indian Red Cross Society Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur city</td>
+			<td>Zilla Parishad Compound, Nagarampalem, GUNTUR</td>
+			<td>522004</td>
+			<td>0863 2215656</td>
+			<td>09848181601, 08121751295</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >39</td>
+			<td>Lions Club of Guntur Vision Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur city</td>
+			<td>1st Floor, Somuvari Street, Kothapeta, Guntur</td>
+			<td>522001</td>
+			<td>0863 2336198, 0863 2336199</td>
+			<td>9246600777</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >40</td>
+			<td>Padmavathi Day &amp; Night Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur city</td>
+			<td>Opposite to Head Post Office, Behind Veterinary Hospital, Kothapeta</td>
+			<td>522001</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >41</td>
+			<td>M/s. Needs Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur city</td>
+			<td>1st Floor, Honda Show Room Building, Opposite Doctor Plaza, Kothapeta</td>
+			<td>522001</td>
+			<td>0863 6638222, 0863 6639222</td>
+			<td>9246448899</td>
+			<td>needsbloodbankguntur@gmail.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >42</td>
+			<td>M/s. Sri Lakshmi Maternity &amp; Surgical Nursing Home Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur city</td>
+			<td>4th Floor, Behind Sivalayam Temple, Kothapeta</td>
+			<td>522001</td>
+			<td>0863 2219955</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >43</td>
+			<td>Saint Joseph General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur city</td>
+			<td>Opposite to Andhra Christian College, Near Flyover, Main Road, Guntur</td>
+			<td>522001</td>
+			<td>0863 2322700, 0863 2320386</td>
+			<td>9493819977</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >44</td>
+			<td>NTR Memorial Trust Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur city</td>
+			<td>Door No. 13-2-87, 1st Line G. V. Thota</td>
+			<td>522001</td>
+			<td>0863 2339444</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >45</td>
+			<td>Katuri Medical College and Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur Rural</td>
+			<td>Katuri Nagar, Chinakondrupadu, Guntur</td>
+			<td>522019</td>
+			<td>0863 2288555, 0863 2288556 (Ext No. 234)</td>
+			<td>NA</td>
+			<td>katuribloodbank@gmail.com</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >46</td>
+			<td>NRI Medical College and General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur Rural</td>
+			<td>Mangalagiri Mandalam, Chinakakani, Guntur</td>
+			<td>522503</td>
+			<td>08645 236777, 08645 237401, 08645 230101</td>
+			<td>09849989813, 09849989843</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >47</td>
+			<td>Manipal Hospital Bloodbank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Guntur Rural</td>
+			<td>Soumyanagar, Tadepalli, Guntur</td>
+			<td>522501</td>
+			<td>0866 2489700 (Ext No.102)</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >48</td>
+			<td>Indian Red Cross Society Blood Bank. Narassraopet</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Narasaraopeta</td>
+			<td>Area Hospital, Narasaraopeta</td>
+			<td>522601</td>
+			<td>8647224455</td>
+			<td>09885222155, 09885838866</td>
+			<td>nrtbloodbankircs@gmail.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >49</td>
+			<td>NRT Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Narasaraopeta</td>
+			<td>GBR Super Speciality Hospital, 10-1-10/1, Palnadu Road, Narasaraopeta</td>
+			<td>522601</td>
+			<td>9542628888</td>
+			<td>9985148884</td>
+			<td>nrtbioodbank@gmail.com</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >50</td>
+			<td>Anjireddy Multi Specality Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Piduguralla</td>
+			<td>Gaganamma Temple, Piduguralla</td>
+			<td>522413</td>
+			<td>08649 254567</td>
+			<td>9849212042</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >51</td>
+			<td>Red Cross Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Repalle</td>
+			<td>Government Hospital Premises<br/> Repalle-522265<br/> Guntur Dist,A.P</td>
+			<td>522265</td>
+			<td>08648 223939</td>
+			<td>9177883353</td>
+			<td>rplredcrossbb@gmail.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >52</td>
+			<td>Area Hospital (Repeated)</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Tenali</td>
+			<td>Blood Bank Medical Officer,  Blood Bank, Area Hospital, Tenali, Guntur District</td>
+			<td>522201</td>
+			<td>NA</td>
+			<td>9866686760</td>
+			<td>tenalibloodbank@gmail.com</td>
+			<td>NA</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >53</td>
+			<td>APVVP District Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Tenali</td>
+			<td>APVVP District Hospital Premises, Chenchupeta, Tenali, Guntur</td>
+			<td>522202</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Government</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >54</td>
+			<td>Rudhira Voluntary Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Tenali</td>
+			<td>D.No. 7-5-56, KRR Complex, 1st Floor, Opposite ASN college, Prakasam Road, Ganganammapeta, Tenali</td>
+			<td>522201</td>
+			<td>08644 231222, 08644 654123</td>
+			<td>9247155622</td>
+			<td>maruthi_nagalingam@yahoo.com</td>
+			<td>Private</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >55</td>
+			<td>Best Rotary Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>GUNTUR</td>
+			<td>Tenali</td>
+			<td>Mahila Mandali Building, Sarojini Naidu Street, Kothapeta, Tenali</td>
+			<td>522201</td>
+			<td>NA</td>
+			<td>09849833321</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >56</td>
+			<td>Area Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Gudivada</td>
+			<td>Gudivada</td>
+			<td>521301</td>
+			<td>08674 245040</td>
+			<td>7799990904</td>
+			<td>areahospital.gudivada@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >57</td>
+			<td>Dr. Pattabhi Red Cross Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Machilipatnam</td>
+			<td>DM &amp; HO Campus, Machilipatnam</td>
+			<td>521001</td>
+			<td>08672 230605</td>
+			<td>NA</td>
+			<td>drprcbloodbankmtm@gmail.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >58</td>
+			<td>Government General Hospital (Repeated)</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>Government General Hospital, Ramavarapadu, Vijayawada - 520007</td>
+			<td>520007</td>
+			<td>9866686760</td>
+			<td>8662452244</td>
+			<td>gghbbvij@gmail.com</td>
+			<td>NA</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >59</td>
+			<td>Government District Headquarters Hospital machilipatnam blood bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>Machilipatnam</td>
+			<td>521001</td>
+			<td>08672 245040</td>
+			<td>NA</td>
+			<td>dhmtmbb@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >60</td>
+			<td>Rotary Red Cross Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>H.No: 26-5-5, G.S Raju Street, Gandhinagar, Vijayawada - 520003. Krishna District</td>
+			<td>520003</td>
+			<td>0866 2570082, 0866 6464002</td>
+			<td>9848124977</td>
+			<td>redcrosskrishna@gmail.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >61</td>
+			<td>Vijaya Sri Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>VijayaSri Palace,D. No. 29-19-27/4, Ground Floor, First Floor and Second Floor, Dornakal Road, Suryaraopet, Vijayawada</td>
+			<td>520002</td>
+			<td>0866 2433199</td>
+			<td>9392120187</td>
+			<td>vijayasribloodbankvja @gmail.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >62</td>
+			<td>Lions Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>D. No. 29-19-85, 1st &amp; 2nd Floor,Old Janatha Hospital Building, Dornakal Road, Suryaraopet, Vijayawada</td>
+			<td>520002</td>
+			<td>0866 2434417</td>
+			<td>NA</td>
+			<td>lionsbloodbank@yahoo.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >63</td>
+			<td>University General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>Ring Road, Gunadala, Vijayawada</td>
+			<td>520 008</td>
+			<td>0866 2452244, 0866 2453488</td>
+			<td>NA</td>
+			<td>gghbbvij@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >64</td>
+			<td>M/s. Chaitanya Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>40-9/1-26, Vasavya Complex, Benz Circle, Vijayawada</td>
+			<td>520010</td>
+			<td>0866 2497977, 0866 645977</td>
+			<td>9246289777</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >65</td>
+			<td>Nagarjuna Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>Kanuru, Vijayawada</td>
+			<td>NA</td>
+			<td>0866 2554701</td>
+			<td>9848141550</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >66</td>
+			<td>Saint Ann&amp;#39;s Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>Punnammathota, Bandhar Road, Vijayawada - 2</td>
+			<td>520 002</td>
+			<td>0866 2572057</td>
+			<td>NA</td>
+			<td>annshospitall@gmail.com</td>
+			<td>Private</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >67</td>
+			<td>Rotary Red Cross Blood Bank (Repeated)</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>26-5-5, G.S. Raju Road, Vijayawada</td>
+			<td>520 003</td>
+			<td>2570082</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >68</td>
+			<td>Dr. Pinnamaneni Siddhartha Insitiute of Medical Sciences &amp; Research Foundation (Dr.P.SIMS &amp; RF) Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>Chinnaoutapalli.</td>
+			<td>521286</td>
+			<td>08676 257311</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >69</td>
+			<td>Bethesda Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>29-10-2, Ground Floor, Narsimharao Street, Suryaraopet, Vijayawada</td>
+			<td>NA</td>
+			<td>0866 2435888</td>
+			<td>098498 33321</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >70</td>
+			<td>Smt CH. Manju Vani Vara Prasad, Lions District 316D Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>H.No.29-4-54K, Conan Dhanvoda Anantham Complex, Prakasam Road, Suryaraopet, Vijayawada</td>
+			<td>520002</td>
+			<td>0866 2573636</td>
+			<td>9849118077</td>
+			<td>lionsbloodbank@yahoo.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >71</td>
+			<td>Suraksha Voluntary Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>29-10-8, Govinda Rajulu Naidu Street, Suryaraopet, Vijayawada</td>
+			<td>520002</td>
+			<td>0866 2434499</td>
+			<td>9394777899</td>
+			<td>surakshabloodbank@gmail.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >72</td>
+			<td>M/s Ayush Nri Lepl Health Care Private Limited</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>First Floor, D. No. 40-13-3&amp; 3A, Ring Road, Sriramachandra Nagar, Vijayawada</td>
+			<td>520008</td>
+			<td>0866 2541414</td>
+			<td>8498061158</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >73</td>
+			<td>M/s. Nimra Institute of Medical Sciences</td>
+			<td>Andhra Pradesh</td>
+			<td>KRISHNA</td>
+			<td>Vijayawada</td>
+			<td>Ground Floor, Adjacent to Central Lab, Teaching Hospital &amp; Research Centre, Nimranagar, Jupudi, Ibrahimpatmnam, Vijayawada.Krishna</td>
+			<td>521456</td>
+			<td>0866 6500000, 0866 6545454</td>
+			<td>NA</td>
+			<td>nimrabloodbank@gmail.com</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >74</td>
+			<td>RCH -II Blood Bank, Area Hospital, Adoni</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Adoni</td>
+			<td>Dr. H. Siva Reddy, Civil Surgeon RMO (Rtd),Medical Officer  IRCS, RCH-II, Blood Bank, Area Hospital, Adoni-518301</td>
+			<td>518301</td>
+			<td>NA</td>
+			<td>9440503302</td>
+			<td>drhsivareddy123@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >75</td>
+			<td>M/s. Indian Red Cross Society Blood Bank RCH 2</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Adoni</td>
+			<td>First Floor, Government Area Hospital, Adoni, Kurnool</td>
+			<td>518301</td>
+			<td>NA</td>
+			<td>9440503302</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >76</td>
+			<td>M/s. Government General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Kurnool</td>
+			<td>kurnool</td>
+			<td>518002</td>
+			<td>NA</td>
+			<td>9985676311</td>
+			<td>knlgghbloodbank@gmail.comsupdtgghknl@gmail.com</td>
+			<td>Government</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >77</td>
+			<td>M/s. Indian Red Cross Society Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Kurnool</td>
+			<td>Opposite Ravi Theatre, D.M &amp; H.O Compound, Beside Control Room, Kurnool</td>
+			<td>518002</td>
+			<td>08518 255347</td>
+			<td>9490601960</td>
+			<td>indianredcrossknl@yahoo.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >78</td>
+			<td>M/s. Viswa Bharathi General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Kurnool</td>
+			<td>2nd Floor, R. T. Nagar, Near Penchikalapadu (v) Kallur (m), Kurnool</td>
+			<td>518002</td>
+			<td>08518 283964</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Government</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >79</td>
+			<td>M/s. Viswa Bharathi Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Kurnool</td>
+			<td>D. No. 50/760-A-127-13,1st Floor (O.P. Block), Gayathri Estate, Kurnool.</td>
+			<td>518002</td>
+			<td>08518 22294</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >80</td>
+			<td>M/s. R.R. Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Kurnool</td>
+			<td>D.No.40-304-10, 2nd Floor, Bhagya Nagar, Kurnool</td>
+			<td>518004</td>
+			<td>08518 223131</td>
+			<td>9966662331</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >81</td>
+			<td>District Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Nandyal</td>
+			<td>District Hospital, Noonepalli, Nandyal, Kurnool</td>
+			<td>518502</td>
+			<td>8514221033</td>
+			<td>9959912781</td>
+			<td>bbdhnandyal@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >82</td>
+			<td>M/s. Shantiram Medical College &amp; General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Nandyal</td>
+			<td>(Shafa Educational Society) NH-18, Nandyal</td>
+			<td>518501</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >83</td>
+			<td>Government Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>KURNOOL</td>
+			<td>Srisailam Project</td>
+			<td>Blood Bank Medical Officer,  Blood Bank, Government Hospital, Srisailam Project, Kurnool District</td>
+			<td>518101</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >84</td>
+			<td>M/s. Area Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>PRAKASAM</td>
+			<td>Chirala</td>
+			<td>Ground Floor, Room No.10, Area Hospital, Chirala, Prakasam</td>
+			<td>523155</td>
+			<td>8520026320</td>
+			<td>9441743892</td>
+			<td>shaikabdulhafiz@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >85</td>
+			<td>Indian Red Cross Society Blood bank</td>
+			<td>Andhra Pradesh</td>
+			<td>PRAKASAM</td>
+			<td>Markapur</td>
+			<td>A.P.V.P. Area Hospital, Cumbum Road, Markapur</td>
+			<td>523316</td>
+			<td>08596 223485</td>
+			<td>9440211131</td>
+			<td>ahmarkapur@yahoo.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >86</td>
+			<td>M/s. RIMS General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>PRAKASAM</td>
+			<td>Ongole</td>
+			<td>C/o. RIMS General Hospital , D.No. 8-5-2/A, Opposite Bapuji Kalamandir, Bhagya Nagar, 5th Lane, Ongole</td>
+			<td>523001</td>
+			<td>8592233310</td>
+			<td>9000991884</td>
+			<td>bloodbankrimsongole@gmail.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >87</td>
+			<td>Indian Red Cross Society Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>PRAKASAM</td>
+			<td>Ongole</td>
+			<td>IRCS Blood Bank, Railway Station Road, SanthaPeta, Ongole, Prakasam</td>
+			<td>523001</td>
+			<td>08592 236093</td>
+			<td>9247264635</td>
+			<td>ircsbbongole@gmail.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >88</td>
+			<td>M/s. Life Line Volunytary Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>PRAKASAM</td>
+			<td>Ongole</td>
+			<td>D. No.37-1-169/54, 2nd Floor, Sundharaiah Bhavan Raod, Ongole.</td>
+			<td>523001</td>
+			<td>9247023117</td>
+			<td>09247023117, 09848999117</td>
+			<td>ehara.rao0900@gmail.com</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >89</td>
+			<td>M/s. Belief Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>PRAKASAM</td>
+			<td>Ongole</td>
+			<td>3rd Floor, Sai Complex, Addanki Bus Stop, Ongole</td>
+			<td>523001</td>
+			<td>08592 222345</td>
+			<td>9849499988</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >90</td>
+			<td>Government Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>SPSR NELLORE</td>
+			<td>Gudur</td>
+			<td>Area Hospital Compound, Gudur</td>
+			<td>524101</td>
+			<td>NA</td>
+			<td>8008553616</td>
+			<td>ahgudur@yahoo.com</td>
+			<td>Government</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >91</td>
+			<td>M/s. Kanamarlapudi Koteswara Rao Indian Red Cross Society (IRCS) (REPEATED)</td>
+			<td>Andhra Pradesh</td>
+			<td>SPSR NELLORE</td>
+			<td>Kavali</td>
+			<td>Survey No.1083/3, R.D Office Compound, Kavali.</td>
+			<td>524201</td>
+			<td>08626 244766</td>
+			<td>9849850498</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >92</td>
+			<td>M/s. APVVP Area Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>SPSR NELLORE</td>
+			<td>Kavali</td>
+			<td>Area Hospital Compound Kavali</td>
+			<td>524201</td>
+			<td>NA</td>
+			<td>9247708602</td>
+			<td>NA</td>
+			<td>Government</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >93</td>
+			<td>M/s. Kanamarlapudi Koteswara Rao Indian Red Cross Society Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>SPSR NELLORE</td>
+			<td>Kavali</td>
+			<td>Survey No.1083/3, R.D. Office Compound, Kavali</td>
+			<td>524201</td>
+			<td>08626 244766</td>
+			<td>9849850498</td>
+			<td>NA</td>
+			<td>Charity</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >94</td>
+			<td>Indian Red Cross Society Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>SPSR NELLORE</td>
+			<td>Nellore</td>
+			<td>Indian Red Cross Society (IRCS) Road, Madras Bus stand, Nellore</td>
+			<td>524003</td>
+			<td>0861 2320470</td>
+			<td>9347033100</td>
+			<td>redcross_nlr@yahoo.com</td>
+			<td>Charity</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >95</td>
+			<td>District Headquarters Hospital (Repeated)</td>
+			<td>Andhra Pradesh</td>
+			<td>SPSR NELLORE</td>
+			<td>Nellore</td>
+			<td>District Headquarters Hospital, Dargamitta, Nellore</td>
+			<td>524003</td>
+			<td>NA</td>
+			<td>92477088602</td>
+			<td>dsrbbnlr@gmail.com</td>
+			<td>NA</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >96</td>
+			<td>D.S.R. Headquarters Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>SPSR NELLORE</td>
+			<td>Nellore</td>
+			<td>Government Hospital Compound, Nellore</td>
+			<td>524002</td>
+			<td>0861 2349277</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Government</td>
+			<td>NA</td>
+			</tr>
+			<tr>
+			<td  >97</td>
+			<td>Narayana Medical College &amp; Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>SPSR NELLORE</td>
+			<td>Nellore</td>
+			<td>Narayana Hospital compound, Nellore</td>
+			<td>524002</td>
+			<td>0861 2317963</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >98</td>
+			<td>Gems Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>SRIKAKULAM</td>
+			<td>Ragolu</td>
+			<td>Gems Hospital Premises, Ragolu, Srikakulam</td>
+			<td>532001</td>
+			<td>NA</td>
+			<td>9391489207</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td  >99</td>
+			<td>GMR Varalakshmi Care Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>SRIKAKULAM</td>
+			<td>Rajam</td>
+			<td>GMR Varalakshmi Care Hospital Premises, GMR Nagar, Rajam</td>
+			<td>532127</td>
+			<td>08941 253183, 08941 253184</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>Private</td>
+			<td>YES</td>
+			</tr>
+			<tr>
+			<td  >100</td>
+			<td>Rajiv Gandhi Institute of Medical Sciences (RIMS) General Hospital Blood Bank</td>
+			<td>Andhra Pradesh</td>
+			<td>SRIKAKULAM</td>
+			<td>Srikakulam</td>
+			<td>RIMS Government Hospital Premises, Balaga, Srikakulam</td>
+			<td>532001</td>
+			<td>08942 279679</td>
+			<td>9701501018</td>
+			<td>bbrimssklm@gmail.com</td>
+			<td>Government</td>
+			<td>YES</td>
+			</tr>
+			</tbody></table>
+	</div>
+	<!-- footer starts-->
+	<footer class="text-white text-center text-lg-start" style="background-color: #ff0000a8;">
+		<!-- Grid container -->
+		<div class="container p-4">
+		  <!--Grid row-->
+		  <div class="row mt-4">
+			<!--Grid column-->
+			<div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+			  <h1 class="text-uppercase mb-4">SSSBBMS</h1>
+	
+		  
+			</div>
+			<!--Grid column-->
+	
+			<!--Grid column-->
+			<div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+			  <h5 class="text-uppercase mb-4 pb-1" style="text-align: center;">Explore</h5>
+
+			   <a class="footnav" href="index.html">Home</a>
+			<a class="footnav" href="data.html">Data</a>
+					<a class="footnav" href="contacts.html">Contact</a>
+					<a class="footnav" href="help.html">Help</a>
+					<a class="footnav" href="ps.html">About</a>
+					<a class="footnav" href="register.html">Register Now</a>
+			</div>
+			<!--Grid column-->
+	
+
+			<!--Grid column-->
+			<div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+			  <h5 class="text-uppercase mb-4 pb-1" style="text-align: center;">Other Links</h5>
+
+			  <a class="footnav" href="/">SSSIHL</a>
+			  <a class="footnav" href="/data">SSSSSH</a>
+			  <a class="footnav" href="/contacts">SSSSSH</a>
+			</div>
+			<!--Grid column-->
+		  </div>
+		  <!--Grid row-->
+		</div>
+		<!-- Grid container -->
+	  </footer>
+	<!-- footer ends-->	
+
+</body>
+</html>
+
+<!-- API Key: 579b464db66ec23bdd0000018bd47eced35545527e84f40b7eb6cf1b  -->
+<!-- records[0]._state -->
