@@ -6,4 +6,4 @@ As for backend it was hosted on ApacheTomcat server and used SQL as a database f
 Very thankful to Sri P Sunil Kumar Sir for helping us with Java for the backend.
 
 We have also tried to do the same with Node.js too in another version of it.
-We couldn't upload the entire project but have uploaded only the front end for it.
+We couldn't upload the database but have uploaded the Java version of it along with the frontend. 
